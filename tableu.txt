@@ -1,0 +1,54 @@
+                                             //////// les tableux  \\\\\\\\
+
+1 C'est quoi un Tableau ?
+2 Déclarer un tableau 
+3 Accéder aux éléments d'un tableau 
+4 Methode  remplir le tableaux
+5 calculer la longeur d'un tableau
+6 Afficher le tableau 
+7 les tableaux avec les boucles
+8 Afficher le tableau  avec les boucle
+9 remplir les tableaux avec boucle
+10 claculer la somme 
+11 max
+12 min
+13 moyenne
+14 trie de plus grand au plus petit.
+15 recherch
+16 modiefier
+17 sippremer
+
+
+
+
+
+1 Déclarer un tableau
+2 syntax  data_type array_name[array_size];
+int numbers[5]; int number[] = {1,2,3,4};
+3 Accéder aux éléments d'un tableau
+numbers[0] ;
+numbers[1] ;
+numbers[2] ;
+4 Methode  remplir le tableaux
+numbers[0] = 2;
+numbers[1] = 4;
+numbers[2] = 5;
+scanf("%caracter" , &nameArry[0]);
+scanf("%d" , &numbers[0]);
+scanf("%d" , &numbers[1]);
+int number[] = {1,2,3,4};
+5 clculer la longeur d'un tableau
+int longeur = sizeof(nameArray) / sizeof(nameArray[0]);
+6 Afficher le tableau
+printf("%caracter" , nameArry[0]);
+printf("%d" , numbers[0]);
+7 les tableau avec les boucle
+8 Afficher le tableau  avec les boucle
+ for(int i = 0 ; i < longore ; i++){
+    printf("numbers %d\n" , numbers[i]);
+}
+9 remplir les tableaux avec boucle
+ for(int i = 0 ; i < longore ; i++){
+    printf("enter le number %d " , i+1);
+    scanf("%d" , &numbers[i]);
+}
